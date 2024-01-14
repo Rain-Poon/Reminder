@@ -72,7 +72,7 @@ const Main = () => {
                   <LocalizationProvider dateAdapter={AdapterDayjs}>
                     <DemoContainer components={['DateTimePicker', 'DateTimePicker']}>
                       <DateTimePicker
-                        label="Controlled picker"
+                        label="Due Date"
                         value={value}
                         onChange={(newValue) => setValue(newValue)}
                       />
