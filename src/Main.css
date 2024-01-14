@@ -1,0 +1,20 @@
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.Container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 600px) {
+    .Container {
+      margin: 0px auto;
+    }
+  }
